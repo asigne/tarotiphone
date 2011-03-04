@@ -14,6 +14,7 @@
 @synthesize partieEnCours;
 @synthesize navController;
 @synthesize nbJoueursPartie;
+@synthesize partieEnCoursTerminee;
 	//@synthesize nbParties;
 
 #pragma mark -

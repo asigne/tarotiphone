@@ -27,14 +27,14 @@
 	app = (TarotIphoneAppDelegate*)[[UIApplication sharedApplication] delegate];
 	manager = [[SQLManager alloc] initDatabase];
 	
-/*	
+	
 	//creation du bouton pour voir les scores
 	UIBarButtonItem *item = [[UIBarButtonItem alloc]   
                              initWithTitle:@"Scores" style:UIBarButtonItemStyleBordered
                              target:self   
                              action:@selector(afficherScore)];  
     self.navigationItem.rightBarButtonItem = item;
-	[item release];*/
+	[item release];
 	
 	//initialisation textField score
 	[score setText:@"Score de l'attaque"];
@@ -282,73 +282,15 @@
 		 + prime du chelem
 		 */
 		
-			//[app setNbParties:[app nbParties]+1];
-		if([manager getNbLignes:@"JOUEUR"] == 4){
-			[manager nouvellePartie:[[app partieEnCours] preneur] 
-								   :0 :[[app partieEnCours] contrat] 
-								   :[[app partieEnCours] poignee] :[[app partieEnCours] petit]
-								   :[[app partieEnCours] chelemA] :switchChelem.on
-								   :[[app partieEnCours] score] :[[app partieEnCours] bouts]];
-		}
-		else if([manager getNbLignes:@"JOUEUR"] == 5){
-			[manager nouvellePartie:[[app partieEnCours] preneur] 
-								   :[[app partieEnCours] appele] :[[app partieEnCours] contrat] 
-								   :[[app partieEnCours] poignee] :[[app partieEnCours] petit]
-								   :[[app partieEnCours] chelemA] :switchChelem.on
-								   :[[app partieEnCours] score] :[[app partieEnCours] bouts]];		}
-		
 		scoreTotal = (scoreTotal+(scoreObtenu - scoreAObtenir))*coeffMulti+ primePoignee + primePetitAuBout + primeChelem;
 		
-		//mise a jour des scores de chaque joueur
-		[self miseAJourScores:[manager getNbLignes:@"JOUEUR"]:scoreTotal];
+		[[app partieEnCours] setScoreTotalPartie:scoreTotal];
 							
 		//app.nouvellePartie=YES;
 	
 		Recapitulatif *recapitulatif = [[Recapitulatif alloc] init];//WithNibName:@"affichageScores" bundle:nil];
 		[self.navigationController pushViewController:recapitulatif animated:YES];
 		[recapitulatif release];
-	}
-}
-
--(void) miseAJourScores:(NSInteger)nbJoueurs:(NSInteger)scoreTotal{
-	NSInteger i;
-	NSInteger nbJoueursPartie = [manager getNbLignes:@"JOUEUR"];
-	if (nbJoueursPartie == 4) {
-		for (i=0; i<nbJoueursPartie; i++) {
-			if(i == [[app partieEnCours] preneur]){
-					//preneur
-				[manager setScoreJoueur:(scoreTotal*3):i];
-			}
-			else{
-					//joueurs de la défense
-				[manager setScoreJoueur:(-scoreTotal):i];
-				
-			}
-		}
-	}
-	else if (nbJoueursPartie ==5){
-		for (i=0; i<nbJoueursPartie; i++) {
-			if(i == [[app partieEnCours] preneur]){
-				if(i == [[app partieEnCours] appele]){
-						//preneur et appelé
-					[manager setScoreJoueur:(scoreTotal*4):i];
-				}
-				else{
-						//preneur seul
-					[manager setScoreJoueur:(scoreTotal*2):i];
-					
-				}
-			}
-			else if(i == [[app partieEnCours] appele]){
-					//appele
-				[manager setScoreJoueur:scoreTotal:i];
-				
-			}
-			else{
-					//joueurs de la défense
-				[manager setScoreJoueur:(-scoreTotal):i];
-			}
-		}
 	}
 }
 
@@ -370,9 +312,9 @@
 }*/
 
 -(void) afficherScore{
-	/*AffichageScores *affichageScores = [[AffichageScores alloc] init];
+	AffichageScores *affichageScores = [[AffichageScores alloc] init];
 	[self.navigationController pushViewController:affichageScores animated:YES];
-	[affichageScores release];*/
+	[affichageScores release];
 }
 
 #pragma mark -

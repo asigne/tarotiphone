@@ -20,6 +20,7 @@
 	NSInteger petit;
 	NSInteger chelemR;
 	NSInteger score;
+	NSInteger scoreTotalPartie;
 }
 
 @property (nonatomic, assign) NSInteger idPartie;
@@ -32,5 +33,6 @@
 @property (nonatomic, assign) NSInteger petit;
 @property (nonatomic, assign) NSInteger chelemR;
 @property (nonatomic, assign) NSInteger score;
+@property (nonatomic, assign) NSInteger scoreTotalPartie;
 
 @end

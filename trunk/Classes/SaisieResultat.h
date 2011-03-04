@@ -40,7 +40,6 @@
 -(void) validerResultat:(id)sender;
 -(void) afficherBtnValiderScore:(id)sender;
 -(void) retirerClavier:(id)sender;
--(void) miseAJourScores:(NSInteger)nbJoueurs:(NSInteger)scoreTotal;
 -(void) afficherScore;
 
 @end
