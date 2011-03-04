@@ -1,0 +1,278 @@
+TTarotIphone
+v7
+r0
+t320869415.949609
+cCheck dependencies
+cProcessInfoPlistFile /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Info.plist TarotIphone-Info.plist
+cCompileXIB /Users/aurelien/Documents/workspace/TarotIphone/MainWindow.xib
+cCompileXIB /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.xib
+cProcessPCH /var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch.gch TarotIphone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/main.o /Users/aurelien/Documents/workspace/TarotIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/TarotIphoneAppDelegate.o /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/Accueil.o /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D2DCB320000000000000110
+t1294846770
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h
+c000000004D6FDB250000000000000406
+t1299176229
+s1030
+i<UIKit/UIKit.h>
+i"TarotIpadAppDelegate.h"
+
+N/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m
+c000000004D6FDB310000000000000A55
+t1299176241
+s2645
+i"Accueil.h"
+
+N/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.xib
+c000000004D6FDBCC000000000000B680
+t1299176396
+s46720
+
+N/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h
+c000000004D6FDC6C00000000000002F6
+t1299176556
+s758
+i<UIKit/UIKit.h>
+i"Accueil.h"
+i"Partie.h"
+i"Joueur.h"
+i"SQLManager.h"
+i"Score.h"
+i"PartieJouee.h"
+
+N/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m
+c000000004D6FDCA20000000000000AF2
+t1299176610
+s2802
+i"TarotIphoneAppDelegate.h"
+
+N/Users/aurelien/Documents/workspace/TarotIphone/MainWindow.xib
+c000000004D6FDC21000000000000211C
+t1299176481
+s8476
+
+N/Users/aurelien/Documents/workspace/TarotIphone/TarotIphone_Prefix.pch
+c000000004D6FDC2100000000000000BF
+t1299176481
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app
+t2
+s0
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app.dSYM
+t2
+s0
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Accueil.nib
+t1299176614
+s4138
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Info.plist
+t1299176614
+s607
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/MainWindow.nib
+t1299176614
+s988
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/PkgInfo
+t1299176614
+s8
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/TarotIphone
+t2
+s0
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/Accueil.o
+t2
+s0
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/TarotIphone.LinkFileList
+c000000004D6FDCA600000000000001B6
+t1299176614
+s438
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/TarotIphoneAppDelegate.o
+t2
+s0
+
+N/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/main.o
+t1299176615
+s6320
+
+N/Users/aurelien/Documents/workspace/TarotIphone/main.m
+c000000004D6FDC210000000000000171
+t1299176481
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch.gch
+t1299176615
+s15453392
+
+NTarotIphone-Info.plist
+c000000004D6FDC21000000000000038D
+t1299176481
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320869414#320869414#0(0"0(0#1#0"8613710944#0"0#
+
+CCompileC build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/Accueil.o /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320869415.685519
+e320869415.949537
+r0
+xCompileC
+xbuild/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/Accueil.o
+x/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:9:
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h:10:33: error: TarotIpadAppDelegate.h: No such file or directory
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m: In function '-[Accueil viewDidLoad]':
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: receiver 'SQLManager' is a forward class and corresponding @interface may not exist
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: no '-initDatabase' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: (Messages without a matching method signature
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: will be assumed to return 'id' and accept
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: '...' as arguments.)
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:27: warning: no '-setNbJoueursPartie:' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:35: warning: no '-viderBase' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m: In function '-[Accueil segmentAction:]':
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:46: warning: no '-setNbJoueursPartie:' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:51: warning: no '-setNbJoueursPartie:' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m: In function '-[Accueil valider:]':
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:57: warning: no '-getNbLignes:' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:59: warning: no '-nbJoueursPartie' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:59: warning: comparison between pointer and integer
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:60: warning: no '-ajouterJoueur::' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:65: warning: no '-setNomJoueur::' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:66: warning: no '-setNomJoueur::' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:67: warning: no '-setNomJoueur::' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:68: warning: no '-setNomJoueur::' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:69: warning: no '-nbJoueursPartie' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:69: warning: comparison between pointer and integer
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:70: warning: no '-setNomJoueur::' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:76: warning: receiver 'Partie' is a forward class and corresponding @interface may not exist
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:77: warning: no '-navController' method found
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:77: warning: incompatible Objective-C types 'struct Partie *', expected 'struct UIViewController *' when passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type
+lSLF07#2@73"Compile /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869415#320869415#0(3398"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:9:/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h:10:33: error: TarotIpadAppDelegate.h: No such file or directory/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m: In function '-[Accueil viewDidLoad]':/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: receiver 'SQLManager' is a forward class and corresponding @interface may not exist/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: no '-initDatabase' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: (Messages without a matching method signature/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: will be assumed to return 'id' and accept/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:25: warning: '...' as arguments.)/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:27: warning: no '-setNbJoueursPartie:' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:35: warning: no '-viderBase' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m: In function '-[Accueil segmentAction:]':/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:46: warning: no '-setNbJoueursPartie:' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:51: warning: no '-setNbJoueursPartie:' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m: In function '-[Accueil valider:]':/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:57: warning: no '-getNbLignes:' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:59: warning: no '-nbJoueursPartie' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:59: warning: comparison between pointer and integer/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:60: warning: no '-ajouterJoueur::' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:65: warning: no '-setNomJoueur::' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:66: warning: no '-setNomJoueur::' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:67: warning: no '-setNomJoueur::' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:68: warning: no '-setNomJoueur::' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:69: warning: no '-nbJoueursPartie' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:69: warning: comparison between pointer and integer/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:70: warning: no '-setNomJoueur::' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:76: warning: receiver 'Partie' is a forward class and corresponding @interface may not exist/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:77: warning: no '-navController' method found/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m:77: warning: incompatible Objective-C types 'struct Partie *', expected 'struct UIViewController *' when passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type22(4@49"TarotIpadAppDelegate.h: No such file or directory320869415#91#130#2(7@87"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869415#18446744073709551615#0#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#9#0#9#0#0"0(13@118"TarotIpadAppDelegate.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h320869415#18446744073709551615#0#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h320869029#10#0#10#0#0"0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h320869029#10#0#10#0#28"*: No such file or directory0(22@83"Receiver 'SQLManager' is a forward class and corresponding @interface may not exist320869415#326#163#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#25#0#25#0#0"0(22@31"No '-initDatabase' method found320869415#489#111#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#25#0#25#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320869415#600#125#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#25#0#25#0#0"0(22@38"No '-setNbJoueursPartie:' method found320869415#946#118#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#27#0#27#0#19"no '*' method found0(22@28"No '-viderBase' method found320869415#1064#108#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#35#0#35#0#19"no '*' method found0(22@38"No '-setNbJoueursPartie:' method found320869415#1280#118#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#46#0#46#0#19"no '*' method found0(22@38"No '-setNbJoueursPartie:' method found320869415#1398#118#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#51#0#51#0#19"no '*' method found0(22@31"No '-getNbLignes:' method found320869415#1618#111#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#57#0#57#0#19"no '*' method found0(22@34"No '-nbJoueursPartie' method found320869415#1729#114#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#59#0#59#0#19"no '*' method found0(22@38"Comparison between pointer and integer320869415#1843#118#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#59#0#59#0#0"0(22@34"No '-ajouterJoueur::' method found320869415#1961#114#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#60#0#60#0#19"no '*' method found0(22@33"No '-setNomJoueur::' method found320869415#2075#113#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#65#0#65#0#19"no '*' method found0(22@33"No '-setNomJoueur::' method found320869415#2188#113#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#66#0#66#0#19"no '*' method found0(22@33"No '-setNomJoueur::' method found320869415#2301#113#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#67#0#67#0#19"no '*' method found0(22@33"No '-setNomJoueur::' method found320869415#2414#113#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#68#0#68#0#19"no '*' method found0(22@34"No '-nbJoueursPartie' method found320869415#2527#114#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#69#0#69#0#19"no '*' method found0(22@38"Comparison between pointer and integer320869415#2641#118#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#69#0#69#0#0"0(22@33"No '-setNomJoueur::' method found320869415#2759#113#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#70#0#70#0#19"no '*' method found0(22@79"Receiver 'Partie' is a forward class and corresponding @interface may not exist320869415#2872#159#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#76#0#76#0#0"0(22@32"No '-navController' method found320869415#3031#112#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#77#0#77#0#19"no '*' method found0(22@175"Incompatible Objective-C types 'struct Partie *', expected 'struct UIViewController *' when passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type320869415#3143#255#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m320869041#77#0#77#0#0"0(0#0#65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m8610135936#2107"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-generated-files.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-own-target-headers.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-all-target-headers.hmap -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-project-headers.hmap -F/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator -I/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/include -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources/i386 -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources -include /var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch -c /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.m -o /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/Accueil.o1#
+
+CCompileC build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/TarotIphoneAppDelegate.o /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320869415.627657
+e320869415.738386
+r0
+xCompileC
+xbuild/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/TarotIphoneAppDelegate.o
+x/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:10,
+o                 from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m:9:
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h:10:33: error: TarotIpadAppDelegate.h: No such file or directory
+oIn file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m:9:
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:11:19: error: Partie.h: No such file or directory
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:12:19: error: Joueur.h: No such file or directory
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:13:23: error: SQLManager.h: No such file or directory
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:14:18: error: Score.h: No such file or directory
+o/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:15:24: error: PartieJouee.h: No such file or directory
+lSLF07#2@88"Compile /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#320869415#0(1112"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:10,                 from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m:9:/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h:10:33: error: TarotIpadAppDelegate.h: No such file or directoryIn file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m:9:/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:11:19: error: Partie.h: No such file or directory/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:12:19: error: Joueur.h: No such file or directory/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:13:23: error: SQLManager.h: No such file or directory/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:14:18: error: Score.h: No such file or directory/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h:15:24: error: PartieJouee.h: No such file or directory6(4@49"TarotIpadAppDelegate.h: No such file or directory320869415#213#130#3(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869410#9#0#9#0#0"0(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#10#0#10#0#0"0(13@118"TarotIpadAppDelegate.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h320869415#18446744073709551615#0#0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h320869029#10#0#10#0#0"0(6@65"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.h320869029#10#0#10#0#28"*: No such file or directory0(4@35"Partie.h: No such file or directory320869415#449#131#2(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869410#9#0#9#0#0"0(13@119"Partie.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#11#0#11#0#0"0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#11#0#11#0#28"*: No such file or directory0(4@35"Joueur.h: No such file or directory320869415#580#131#2(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869410#9#0#9#0#0"0(13@119"Joueur.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#12#0#12#0#0"0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#12#0#12#0#28"*: No such file or directory0(4@39"SQLManager.h: No such file or directory320869415#711#135#2(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869410#9#0#9#0#0"0(13@123"SQLManager.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#13#0#13#0#0"0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#13#0#13#0#28"*: No such file or directory0(4@34"Score.h: No such file or directory320869415#846#130#2(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869410#9#0#9#0#0"0(13@118"Score.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#14#0#14#0#0"0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#14#0#14#0#28"*: No such file or directory0(4@40"PartieJouee.h: No such file or directory320869415#976#136#2(7@102"In file included from /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m320869410#9#0#9#0#0"0(13@124"PartieJouee.h: No such file or directory in /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869415#18446744073709551615#0#0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#15#0#15#0#0"0(6@80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.h320869356#15#0#15#0#28"*: No such file or directory0(0#0#80"/Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m8613653696#2137"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-generated-files.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-own-target-headers.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-all-target-headers.hmap -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-project-headers.hmap -F/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator -I/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/include -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources/i386 -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources -include /var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch -c /Users/aurelien/Documents/workspace/TarotIphone/Classes/TarotIphoneAppDelegate.m -o /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/TarotIphoneAppDelegate.o1#
+
+CCompileC build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/main.o /Users/aurelien/Documents/workspace/TarotIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320869415.626035
+e320869415.685416
+r1
+xCompileC
+xbuild/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/main.o
+x/Users/aurelien/Documents/workspace/TarotIphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/aurelien/Documents/workspace/TarotIphone/main.m320869415#320869415#0(0"0(0#0#54"/Users/aurelien/Documents/workspace/TarotIphone/main.m8613898464#2093"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-generated-files.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-own-target-headers.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-all-target-headers.hmap -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-project-headers.hmap -F/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator -I/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/include -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources/i386 -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources -include /var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch -c /Users/aurelien/Documents/workspace/TarotIphone/main.m -o /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.xib
+s320869414.239881
+e320869414.844755
+r1
+xCompileXIB
+x/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.xib
+lSLF07#2@30"CompileXIB Classes/Accueil.xib320869414#320869414#0(0"0(0#0#67"/Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.xib8614478624#603"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Accueil.nib /Users/aurelien/Documents/workspace/TarotIphone/Classes/Accueil.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/aurelien/Documents/workspace/TarotIphone/MainWindow.xib
+s320869414.239153
+e320869414.646290
+r1
+xCompileXIB
+x/Users/aurelien/Documents/workspace/TarotIphone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320869414#320869414#0(0"0(0#0#62"/Users/aurelien/Documents/workspace/TarotIphone/MainWindow.xib8614649536#601"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/MainWindow.nib /Users/aurelien/Documents/workspace/TarotIphone/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app.dSYM /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/TarotIphone
+r0
+
+CLd /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/TarotIphone normal i386
+r0
+
+CProcessInfoPlistFile /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Info.plist TarotIphone-Info.plist
+s320869414.218619
+e320869414.239059
+r1
+xProcessInfoPlistFile
+x/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Info.plist
+xTarotIphone-Info.plist
+lSLF07#2@30"Process TarotIphone-Info.plist320869414#320869414#0(0"0(0#0#70"/Users/aurelien/Documents/workspace/TarotIphone/TarotIphone-Info.plist8613588928#518"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TarotIphone-Info.plist -genpkginfo /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app/Info.plist0#
+
+CProcessPCH /var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch.gch TarotIphone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320869414.844876
+e320869415.625780
+r1
+xProcessPCH
+x/var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch.gch
+xTarotIphone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile TarotIphone_Prefix.pch320869414#320869415#0(0"0(0#0#70"/Users/aurelien/Documents/workspace/TarotIphone/TarotIphone_Prefix.pch8613127392#1972"    cd /Users/aurelien/Documents/workspace/TarotIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-generated-files.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-own-target-headers.hmap -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-all-target-headers.hmap -iquote /Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/TarotIphone-project-headers.hmap -F/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator -I/Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/include -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources/i386 -I/Users/aurelien/Documents/workspace/TarotIphone/build/TarotIphone.build/Debug-iphonesimulator/TarotIphone.build/DerivedSources -c /Users/aurelien/Documents/workspace/TarotIphone/TarotIphone_Prefix.pch -o /var/folders/6k/6kK6FvG6FUmgg18vBwAbFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TarotIphone_Prefix-hiukllsezwmgzidgdktlvvnomauc/TarotIphone_Prefix.pch.gch0#
+
+CTouch /Users/aurelien/Documents/workspace/TarotIphone/build/Debug-iphonesimulator/TarotIphone.app
+r0
+

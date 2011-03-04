@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE588ED132013B30034EF0E /* Accueil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE588EB132013B30034EF0E /* Accueil.m */; };
+		0DE588EE132013B30034EF0E /* Accueil.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE588EC132013B30034EF0E /* Accueil.xib */; };
+		0DE588FB132014610034EF0E /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE588FA132014610034EF0E /* SQLManager.m */; };
+		0DE58909132014910034EF0E /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58906132014910034EF0E /* Score.m */; };
+		0DE5890A132014910034EF0E /* PartieJouee.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58908132014910034EF0E /* PartieJouee.m */; };
+		0DE58911132014C10034EF0E /* TarotIphone.sql in Resources */ = {isa = PBXBuildFile; fileRef = 0DE58910132014C10034EF0E /* TarotIphone.sql */; };
+		0DE58953132016280034EF0E /* SaisieParametre.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE58951132016280034EF0E /* SaisieParametre.xib */; };
+		0DE58954132016280034EF0E /* SaisieParametre.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58952132016280034EF0E /* SaisieParametre.m */; };
+		0DE5899B13201A760034EF0E /* SaisieResultat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE5899913201A760034EF0E /* SaisieResultat.xib */; };
+		0DE5899C13201A760034EF0E /* SaisieResultat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5899A13201A760034EF0E /* SaisieResultat.m */; };
+		0DE589DB1320CB290034EF0E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE589DA1320CB290034EF0E /* libsqlite3.dylib */; };
+		0DE58A5C1320D6940034EF0E /* PartieEnCours.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58A5B1320D6940034EF0E /* PartieEnCours.m */; };
+		0DE58AE21320DEFA0034EF0E /* Recapitulatif.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58AE01320DEFA0034EF0E /* Recapitulatif.m */; };
+		0DE58AE31320DEFA0034EF0E /* Recapitulatif.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE58AE11320DEFA0034EF0E /* Recapitulatif.xib */; };
+		1D3623260D0F684500981E51 /* TarotIphoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TarotIphoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE588EA132013B30034EF0E /* Accueil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accueil.h; sourceTree = "<group>"; };
+		0DE588EB132013B30034EF0E /* Accueil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accueil.m; sourceTree = "<group>"; };
+		0DE588EC132013B30034EF0E /* Accueil.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Accueil.xib; path = Classes/Accueil.xib; sourceTree = "<group>"; };
+		0DE588F9132014610034EF0E /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManager.h; sourceTree = "<group>"; };
+		0DE588FA132014610034EF0E /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManager.m; sourceTree = "<group>"; };
+		0DE58905132014910034EF0E /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		0DE58906132014910034EF0E /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		0DE58907132014910034EF0E /* PartieJouee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartieJouee.h; sourceTree = "<group>"; };
+		0DE58908132014910034EF0E /* PartieJouee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartieJouee.m; sourceTree = "<group>"; };
+		0DE58910132014C10034EF0E /* TarotIphone.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = TarotIphone.sql; sourceTree = "<group>"; };
+		0DE58950132016280034EF0E /* SaisieParametre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaisieParametre.h; sourceTree = "<group>"; };
+		0DE58951132016280034EF0E /* SaisieParametre.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SaisieParametre.xib; path = Classes/SaisieParametre.xib; sourceTree = "<group>"; };
+		0DE58952132016280034EF0E /* SaisieParametre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaisieParametre.m; sourceTree = "<group>"; };
+		0DE5899813201A760034EF0E /* SaisieResultat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaisieResultat.h; sourceTree = "<group>"; };
+		0DE5899913201A760034EF0E /* SaisieResultat.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SaisieResultat.xib; path = Classes/SaisieResultat.xib; sourceTree = "<group>"; };
+		0DE5899A13201A760034EF0E /* SaisieResultat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaisieResultat.m; sourceTree = "<group>"; };
+		0DE589DA1320CB290034EF0E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0DE58A5A1320D6940034EF0E /* PartieEnCours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartieEnCours.h; sourceTree = "<group>"; };
+		0DE58A5B1320D6940034EF0E /* PartieEnCours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartieEnCours.m; sourceTree = "<group>"; };
+		0DE58ADF1320DEFA0034EF0E /* Recapitulatif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recapitulatif.h; path = ../Recapitulatif.h; sourceTree = "<group>"; };
+		0DE58AE01320DEFA0034EF0E /* Recapitulatif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recapitulatif.m; path = ../Recapitulatif.m; sourceTree = "<group>"; };
+		0DE58AE11320DEFA0034EF0E /* Recapitulatif.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Recapitulatif.xib; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TarotIphoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarotIphoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TarotIphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarotIphoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TarotIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarotIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TarotIphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarotIphone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TarotIphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TarotIphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				0DE589DB1320CB290034EF0E /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DE588EA132013B30034EF0E /* Accueil.h */,
+				0DE588EB132013B30034EF0E /* Accueil.m */,
+				0DE58950132016280034EF0E /* SaisieParametre.h */,
+				0DE58952132016280034EF0E /* SaisieParametre.m */,
+				0DE5899813201A760034EF0E /* SaisieResultat.h */,
+				0DE5899A13201A760034EF0E /* SaisieResultat.m */,
+				0DE58ADF1320DEFA0034EF0E /* Recapitulatif.h */,
+				0DE58AE01320DEFA0034EF0E /* Recapitulatif.m */,
+				0DE58905132014910034EF0E /* Score.h */,
+				0DE58906132014910034EF0E /* Score.m */,
+				0DE58A5A1320D6940034EF0E /* PartieEnCours.h */,
+				0DE58A5B1320D6940034EF0E /* PartieEnCours.m */,
+				0DE58907132014910034EF0E /* PartieJouee.h */,
+				0DE58908132014910034EF0E /* PartieJouee.m */,
+				0DE588F9132014610034EF0E /* SQLManager.h */,
+				0DE588FA132014610034EF0E /* SQLManager.m */,
+				1D3623240D0F684500981E51 /* TarotIphoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TarotIphoneAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TarotIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0DE588EC132013B30034EF0E /* Accueil.xib */,
+				0DE58951132016280034EF0E /* SaisieParametre.xib */,
+				0DE5899913201A760034EF0E /* SaisieResultat.xib */,
+				0DE58AE11320DEFA0034EF0E /* Recapitulatif.xib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TarotIphone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DE58910132014C10034EF0E /* TarotIphone.sql */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TarotIphone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DE589DA1320CB290034EF0E /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TarotIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TarotIphone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TarotIphone;
+			productName = TarotIphone;
+			productReference = 1D6058910D05DD3D006BFB54 /* TarotIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TarotIphone" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TarotIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				0DE588EE132013B30034EF0E /* Accueil.xib in Resources */,
+				0DE58911132014C10034EF0E /* TarotIphone.sql in Resources */,
+				0DE58953132016280034EF0E /* SaisieParametre.xib in Resources */,
+				0DE5899B13201A760034EF0E /* SaisieResultat.xib in Resources */,
+				0DE58AE31320DEFA0034EF0E /* Recapitulatif.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TarotIphoneAppDelegate.m in Sources */,
+				0DE588ED132013B30034EF0E /* Accueil.m in Sources */,
+				0DE588FB132014610034EF0E /* SQLManager.m in Sources */,
+				0DE58909132014910034EF0E /* Score.m in Sources */,
+				0DE5890A132014910034EF0E /* PartieJouee.m in Sources */,
+				0DE58954132016280034EF0E /* SaisieParametre.m in Sources */,
+				0DE5899C13201A760034EF0E /* SaisieResultat.m in Sources */,
+				0DE58A5C1320D6940034EF0E /* PartieEnCours.m in Sources */,
+				0DE58AE21320DEFA0034EF0E /* Recapitulatif.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TarotIphone_Prefix.pch;
+				INFOPLIST_FILE = "TarotIphone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = TarotIphone;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TarotIphone_Prefix.pch;
+				INFOPLIST_FILE = "TarotIphone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = TarotIphone;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TarotIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TarotIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
