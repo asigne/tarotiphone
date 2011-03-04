@@ -20,5 +20,5 @@
 @synthesize petit;
 @synthesize chelemR;
 @synthesize score;
-
+@synthesize scoreTotalPartie;
 @end

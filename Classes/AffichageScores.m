@@ -20,6 +20,20 @@
 	self.title = @"Scores";
 	app = (TarotIphoneAppDelegate*)[[UIApplication sharedApplication] delegate];
 	manager = [[SQLManager alloc] initDatabase];
+
+	if([app partieEnCoursTerminee] == YES){
+			//creation du bouton pour démarrer une nouvelle partie
+		UIBarButtonItem *item = [[UIBarButtonItem alloc]   
+								 initWithTitle:@"Nouvelle Partie" style:UIBarButtonItemStyleBordered
+								 target:self   
+								 action:@selector(nouvellePartie:)];  
+		self.navigationItem.leftBarButtonItem = item; 
+		[item release];
+		nouvellePartie.hidden = NO;
+	}
+	else{
+		nouvellePartie.hidden = YES;
+	}
 	
 		//tableScores = [[UITableView alloc] initWithFrame:CGRectZero];
 	tableScores = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
@@ -34,6 +48,12 @@
 	[self.tableScores reloadData];
 	
     [super viewDidLoad];
+}
+
+-(void) nouvellePartie:(id)sender{
+	//retour à la vue des paramètres
+	NSArray *allControleurs = [self.navigationController viewControllers];
+	[self.navigationController popToViewController:[allControleurs objectAtIndex:1] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

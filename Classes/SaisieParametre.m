@@ -22,14 +22,14 @@
 	app = (TarotIphoneAppDelegate*)[[UIApplication sharedApplication] delegate];
 	manager = [[SQLManager alloc] initDatabase];
 	self.title = @"Paramètres";
-/*	
+	
 	//creation du bouton pour voir les scores
 	UIBarButtonItem *item = [[UIBarButtonItem alloc]   
                              initWithTitle:@"Scores" style:UIBarButtonItemStyleBordered
                              target:self   
                              action:@selector(afficherScore:)];  
     self.navigationItem.rightBarButtonItem = item;  
-	[item release];*/
+	[item release];
 	
 	//pickerView pour le preneur et le contrat
 	pickerView1 = [[UIPickerView alloc] initWithFrame:CGRectZero];
@@ -91,17 +91,17 @@
 
 }
 
-/*
+
 - (void)viewWillAppear:(BOOL)animated{
-	if([app nouvellePartie]){
+	if([app partieEnCoursTerminee] == YES){
+		[app setPartieEnCoursTerminee:NO]; 
 		segmentedControllerParam.selectedSegmentIndex = 0;
-		[pickerView1 selectRow:0 inComponent:0 animated:NO];
-		[pickerView1 selectRow:0 inComponent:1 animated:NO];
-		[pickerView2 selectRow:0 inComponent:0 animated:NO];
-		[pickerView2 selectRow:0 inComponent:1 animated:NO];
-		app.nouvellePartie=NO;
+		[pickerView1 selectRow:0 inComponent:0 animated:YES];
+		[pickerView1 selectRow:0 inComponent:1 animated:YES];
+		[pickerView2 selectRow:0 inComponent:0 animated:YES];
+		[pickerView2 selectRow:0 inComponent:1 animated:YES];
 	}
-}*/
+}
 
 
 //action pour changer "d'onglet"
@@ -148,9 +148,9 @@
 
 //afficher les scores
 -(void) afficherScore:(id)sender{
-	/*AffichageScores *affichageScores = [[AffichageScores alloc] init];
+	AffichageScores *affichageScores = [[AffichageScores alloc] init];
 	[self.navigationController pushViewController:affichageScores animated:YES];
-	[affichageScores release];*/
+	[affichageScores release];
 }
 
 #pragma mark -

@@ -25,4 +25,6 @@
 @property (nonatomic, retain) IBOutlet UITableView *tableScores;
 @property (nonatomic, retain) IBOutlet UIButton *nouvellePartie;
 
+-(void) nouvellePartie:(id)sender;
+
 @end

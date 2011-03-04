@@ -32,6 +32,7 @@
 @property (nonatomic, retain) SQLManager *manager;
 
 - (void) afficherScore:(id)sender;
+-(void) miseAJourScores:(NSInteger)nbJoueurs:(NSInteger)scoreTotal;
 	//-(void) revenirParametre:(id)sender;
 
 

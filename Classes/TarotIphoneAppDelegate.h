@@ -23,12 +23,14 @@
 	NSInteger nbJoueursPartie;
 		//NSInteger nbParties;	
 	PartieEnCours *partieEnCours;
+	bool partieEnCoursTerminee;
 }
 
 @property (nonatomic,retain) IBOutlet UIWindow *window;
 @property (nonatomic,retain) IBOutlet PartieEnCours *partieEnCours;
 @property (nonatomic,retain) IBOutlet UINavigationController *navController;
 @property (nonatomic,assign) IBOutlet NSInteger nbJoueursPartie;
+@property (nonatomic,assign) IBOutlet bool partieEnCoursTerminee;
 	//@property (nonatomic,assign) IBOutlet NSInteger nbParties;
 
 

@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,7 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>10</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -310,12 +309,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AffichageScores.m</string>
+								<string>SaisieParametre.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,33 +324,33 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AffichageScores.m</string>
+										<string>SaisieParametre.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0DE58DF31320F8B40034EF0E</string>
+										<string>0DE58F631321283F0034EF0E</string>
 										<key>history</key>
 										<array>
-											<string>0DE58A161320CFCB0034EF0E</string>
-											<string>0DE58A171320CFCB0034EF0E</string>
 											<string>0DE58A6F1320D7AD0034EF0E</string>
-											<string>0DE58BF51320E4330034EF0E</string>
-											<string>0DE58BF61320E4330034EF0E</string>
-											<string>0DE58CAB1320EAD30034EF0E</string>
-											<string>0DE58CC01320EB460034EF0E</string>
 											<string>0DE58CE21320ED100034EF0E</string>
 											<string>0DE58CE31320ED100034EF0E</string>
 											<string>0DE58D531320F0510034EF0E</string>
-											<string>0DE58D9A1320F3000034EF0E</string>
-											<string>0DE58DA51320F33C0034EF0E</string>
-											<string>0DE58DAC1320F3D80034EF0E</string>
-											<string>0DE58DE11320F8220034EF0E</string>
-											<string>0DE58DE21320F8220034EF0E</string>
-											<string>0DE58DE31320F8220034EF0E</string>
-											<string>0DE58DE41320F8220034EF0E</string>
 											<string>0DE58DE51320F8220034EF0E</string>
-											<string>0DE58DF11320F8B40034EF0E</string>
-											<string>0DE58DF21320F8B40034EF0E</string>
+											<string>0DE58EEF132123DA0034EF0E</string>
+											<string>0DE58F091321255E0034EF0E</string>
+											<string>0DE58F0C1321255E0034EF0E</string>
+											<string>0DE58F0D1321255E0034EF0E</string>
+											<string>0DE58F2C132125CC0034EF0E</string>
+											<string>0DE58F46132126AF0034EF0E</string>
+											<string>0DE58F51132127940034EF0E</string>
+											<string>0DE58F52132127940034EF0E</string>
+											<string>0DE58F53132127940034EF0E</string>
+											<string>0DE58F54132127940034EF0E</string>
+											<string>0DE58F55132127940034EF0E</string>
+											<string>0DE58F57132127940034EF0E</string>
+											<string>0DE58F601321283F0034EF0E</string>
+											<string>0DE58F611321283F0034EF0E</string>
+											<string>0DE58F621321283F0034EF0E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,7 +548,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>0DE58DEC1320F84C0034EF0E</string>
+		<string>0DE58F641321283F0034EF0E</string>
 		<string>0DE58DA11320F3000034EF0E</string>
 		<string>0DE58DA21320F3000034EF0E</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -580,7 +581,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AffichageScores.m</string>
+								<string>Accueil.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
