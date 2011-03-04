@@ -38,20 +38,11 @@
     [super viewDidLoad];
 }
 
--(void) afficherScore:(id)sender{
-/*	AffichageScores *affichageScores = [[AffichageScores alloc] init];//WithNibName:@"affichageScores" bundle:nil];
+- (void) afficherScore:(id)sender{
+	AffichageScores *affichageScores = [[AffichageScores alloc] init];//WithNibName:@"affichageScores" bundle:nil];
 	[self.navigationController pushViewController:affichageScores animated:YES];
-	[affichageScores release];*/
+	[affichageScores release];
 }
-
-
-/*
- // Override to allow orientations other than the default portrait orientation.
- - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
- // Return YES for supported orientations.
- return (interfaceOrientation == UIInterfaceOrientationPortrait);
- }
- */
 
 - (void)didReceiveMemoryWarning {
 		// Releases the view if it doesn't have a superview.
@@ -65,7 +56,6 @@
 		// Release any retained subviews of the main view.
 		// e.g. self.myOutlet = nil;
 }
-
 
 - (void)dealloc {
     [super dealloc];

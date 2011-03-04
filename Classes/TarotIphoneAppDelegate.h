@@ -11,7 +11,7 @@
 #import "SaisieParametre.h"
 #import "SaisieResultat.h"
 #import "Recapitulatif.h"
-	//#import "Partie.h"
+#import "AffichageScores.h"
 #import "SQLManager.h"
 #import "Score.h"
 #import "PartieJouee.h"
