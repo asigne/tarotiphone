@@ -89,7 +89,6 @@
         // Préparation de la requête SQL qui va permettre d'ajouter un score à la BDD       
         NSString *sqlStat = [NSString stringWithFormat:@"INSERT INTO PARTIE VALUES (NULL, %d, %d, %d, %d, %d, %d, %d, %i, %d);",
 							 preneur+1, appele+1, contrat+1, poignee+1, chelemA+1, petit+1, nbBouts+1, chelemR, score];
-		NSLog(sqlStat);
 		
 		//conversion en char *
 		const char *sqlStatement = [sqlStat UTF8String];

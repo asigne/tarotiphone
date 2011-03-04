@@ -31,7 +31,8 @@
 @property (nonatomic, retain) TarotIphoneAppDelegate *app;
 @property (nonatomic, retain) SQLManager *manager;
 
--(void) revenirParametre:(id)sender;
+- (void) afficherScore:(id)sender;
+	//-(void) revenirParametre:(id)sender;
 
 
 @end

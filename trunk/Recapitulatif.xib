@@ -579,6 +579,15 @@
 					</object>
 					<int key="connectionID">51</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">afficherScore:</string>
+						<reference key="source" ref="712561208"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">52</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -871,7 +880,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">51</int>
+			<int key="maxID">52</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -880,13 +889,13 @@
 					<string key="className">Recapitulatif</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">revenirParametre:</string>
+						<string key="NS.key.0">afficherScore:</string>
 						<string key="NS.object.0">id</string>
 					</object>
 					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">revenirParametre:</string>
+						<string key="NS.key.0">afficherScore:</string>
 						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">revenirParametre:</string>
+							<string key="name">afficherScore:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 					</object>

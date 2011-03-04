@@ -21,6 +21,8 @@
 		0DE58A5C1320D6940034EF0E /* PartieEnCours.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58A5B1320D6940034EF0E /* PartieEnCours.m */; };
 		0DE58AE21320DEFA0034EF0E /* Recapitulatif.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58AE01320DEFA0034EF0E /* Recapitulatif.m */; };
 		0DE58AE31320DEFA0034EF0E /* Recapitulatif.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE58AE11320DEFA0034EF0E /* Recapitulatif.xib */; };
+		0DE58D701320F0D80034EF0E /* AffichageScores.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE58D6E1320F0D80034EF0E /* AffichageScores.m */; };
+		0DE58D711320F0D80034EF0E /* AffichageScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE58D6F1320F0D80034EF0E /* AffichageScores.xib */; };
 		1D3623260D0F684500981E51 /* TarotIphoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TarotIphoneAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -52,6 +54,9 @@
 		0DE58ADF1320DEFA0034EF0E /* Recapitulatif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recapitulatif.h; path = ../Recapitulatif.h; sourceTree = "<group>"; };
 		0DE58AE01320DEFA0034EF0E /* Recapitulatif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recapitulatif.m; path = ../Recapitulatif.m; sourceTree = "<group>"; };
 		0DE58AE11320DEFA0034EF0E /* Recapitulatif.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Recapitulatif.xib; sourceTree = "<group>"; };
+		0DE58D6D1320F0D80034EF0E /* AffichageScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffichageScores.h; sourceTree = "<group>"; };
+		0DE58D6E1320F0D80034EF0E /* AffichageScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffichageScores.m; sourceTree = "<group>"; };
+		0DE58D6F1320F0D80034EF0E /* AffichageScores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AffichageScores.xib; path = Classes/AffichageScores.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* TarotIphoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarotIphoneAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* TarotIphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarotIphoneAppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +95,8 @@
 				0DE5899A13201A760034EF0E /* SaisieResultat.m */,
 				0DE58ADF1320DEFA0034EF0E /* Recapitulatif.h */,
 				0DE58AE01320DEFA0034EF0E /* Recapitulatif.m */,
+				0DE58D6D1320F0D80034EF0E /* AffichageScores.h */,
+				0DE58D6E1320F0D80034EF0E /* AffichageScores.m */,
 				0DE58905132014910034EF0E /* Score.h */,
 				0DE58906132014910034EF0E /* Score.m */,
 				0DE58A5A1320D6940034EF0E /* PartieEnCours.h */,
@@ -119,6 +126,7 @@
 				0DE58951132016280034EF0E /* SaisieParametre.xib */,
 				0DE5899913201A760034EF0E /* SaisieResultat.xib */,
 				0DE58AE11320DEFA0034EF0E /* Recapitulatif.xib */,
+				0DE58D6F1320F0D80034EF0E /* AffichageScores.xib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -213,6 +221,7 @@
 				0DE58953132016280034EF0E /* SaisieParametre.xib in Resources */,
 				0DE5899B13201A760034EF0E /* SaisieResultat.xib in Resources */,
 				0DE58AE31320DEFA0034EF0E /* Recapitulatif.xib in Resources */,
+				0DE58D711320F0D80034EF0E /* AffichageScores.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +242,7 @@
 				0DE5899C13201A760034EF0E /* SaisieResultat.m in Sources */,
 				0DE58A5C1320D6940034EF0E /* PartieEnCours.m in Sources */,
 				0DE58AE21320DEFA0034EF0E /* Recapitulatif.m in Sources */,
+				0DE58D701320F0D80034EF0E /* AffichageScores.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
