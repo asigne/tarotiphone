@@ -1,0 +1,1 @@
+compter les points au tarot sur iphone
